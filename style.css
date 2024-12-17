@@ -20,3 +20,14 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+#menuButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger {
+  height: 16px;
+  width: 16px;
+}

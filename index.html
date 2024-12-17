@@ -28,8 +28,10 @@
       <button id="closeDialogBtn">Stäng</button>
     </dialog>
 
-    <button id="menuButton">Meny</button>
-    <nav id="menuContent">
+    <button id="menuButton" aria-expanded="false">
+      <img class="hamburger" src="./img/menu.png" alt="Meny bild" />
+    </button>
+    <nav id="menuContent" class="hidden" aria-labelledby="menuButton">
       <ul>
         <li><a href="#">Hem</a></li>
         <li><a href="#">Om oss</a></li>

@@ -51,3 +51,12 @@ closePopop2.addEventListener("click", () => {
   if (popup2.classList.contains("show")) {
   } else popupButton2.focus();
 });
+
+//Uppgift 3
+
+const hamburger = document.getElementById("menuButton");
+const hamburgerContent = document.getElementById("menuContent");
+
+hamburger.addEventListener("click", () => {
+  hamburgerContent.classList.toggle("show");
+});
